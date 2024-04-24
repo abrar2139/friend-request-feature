@@ -19,7 +19,13 @@
   background-color: white;
   border-radius: 10px;
   text-align: center;
-  transition: all 5s ease-in-out;
+  transition: all 3s ease-in-out;
+}
+@media (max-width:450px) {
+  .box{
+    width: 90%;
+    
+  }
 }
 .box img{
   height: 50%;
@@ -33,7 +39,6 @@
 }
 .box h1{
   transition: all 1s ease-in-out;
-
   font-size: 45px;
   font-weight: 900;
   margin: 40px 0;
